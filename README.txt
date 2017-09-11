@@ -2,7 +2,7 @@ Introduction
 
 	This application reads PNL information from a text
 	file and generate RESTful web service to deliver data in JSON format to the 
-  front-end application and make sure everything is working as expected. 
+  	front-end application and make sure everything is working as expected. 
 	
 Key features:
 
@@ -28,65 +28,65 @@ Building:
 
 Running:
 
-    Ensure you are in the "pnl-rest-service-cors" directory after building the software.
-    Run the program without parameters input, it will use "src/main/resources/PNL.txt"
+    	Ensure you are in the "pnl-rest-service-cors" directory after building the software.
+    	Run the program without parameters input, it will use "src/main/resources/PNL.txt"
 	as the defualt employee input file. 
   
-  API endpoint:
-  /orderList is the RESTful API which will respond the GET request with a list of Object 
-  order using JSON format:
+	API endpoint:
+	/orderList is the RESTful API which will respond the GET request with a list of Object 
+	order using JSON format:
 	
-[
-    {
-        "orderId": "LVGVUP",
-        "passengerList": [
-            {
-                "name": "ARNOLD/NIGELMR"
-            },
-            {
-                "name": "TAYLOR/HAYLEYMRS"
-            }
-        ]
-    },
-    {
-        "orderId": "LVKBTB",
-        "passengerList": [
-            {
-                "name": "ATKINSON/KARENMRS"
-            }
-        ]
-    },
-    {
-        "orderId": "LVHZDG",
-        "passengerList": [
-            {
-                "name": "BALL/LINDAANNMRS"
-            },
-            {
-                "name": "BALL/STEPHENJOHNMR"
-            }
-        ]
-    },
-    {
-        "orderId": "LVK6HA",
-        "passengerList": [
-            {
-                "name": "CLARKE/MICHAELMR"
-            },
-            {
-                "name": "CLARKE/TRACEYMRS"
-            }
-        ]
-    },
-    {
-        "orderId": "LVKBCB",
-        "passengerList": [
-            {
-                "name": "CLIFFORD/DAVIDMR"
-            }
-        ]
-    }
-]
+	[
+	    {
+		"orderId": "LVGVUP",
+		"passengerList": [
+		    {
+			"name": "ARNOLD/NIGELMR"
+		    },
+		    {
+			"name": "TAYLOR/HAYLEYMRS"
+		    }
+		]
+	    },
+	    {
+		"orderId": "LVKBTB",
+		"passengerList": [
+		    {
+			"name": "ATKINSON/KARENMRS"
+		    }
+		]
+	    },
+	    {
+		"orderId": "LVHZDG",
+		"passengerList": [
+		    {
+			"name": "BALL/LINDAANNMRS"
+		    },
+		    {
+			"name": "BALL/STEPHENJOHNMR"
+		    }
+		]
+	    },
+	    {
+		"orderId": "LVK6HA",
+		"passengerList": [
+		    {
+			"name": "CLARKE/MICHAELMR"
+		    },
+		    {
+			"name": "CLARKE/TRACEYMRS"
+		    }
+		]
+	    },
+	    {
+		"orderId": "LVKBCB",
+		"passengerList": [
+		    {
+			"name": "CLIFFORD/DAVIDMR"
+		    }
+		]
+	    }
+	]
 
 	]
 
