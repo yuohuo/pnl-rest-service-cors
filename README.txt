@@ -10,6 +10,8 @@ Key features:
 	2. Used Maven as project management and comprehension tool.
 	3. Wrote testable code through spring’s dependency injection.
 	4. Designed web services following RESTful API guiding constraints.
+	5. Used Cross-origin resource sharing (CORS) mechanism to address cross origin 
+	   websevice request issue.
 
 Used Technologies:
 
